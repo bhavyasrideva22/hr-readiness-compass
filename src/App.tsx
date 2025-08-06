@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import { Assessment } from "./pages/Assessment";
 import { Psychometric } from "./pages/Psychometric";
 import { Technical } from "./pages/Technical";
+import { WISCAR } from "./pages/WISCAR";
 import { Results } from "./pages/Results";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/psychometric" element={<Psychometric />} />
           <Route path="/technical" element={<Technical />} />
+          <Route path="/wiscar" element={<WISCAR />} />
           <Route path="/results" element={<Results />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
